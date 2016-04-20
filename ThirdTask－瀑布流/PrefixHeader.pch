@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  ThirdTask－瀑布流
+//
+//  Created by linzhennan on 16/3/18.
+//  Copyright © 2016年 Zhennan Lin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#endif /* PrefixHeader_pch */
+
+#ifdef __OBJC__
+
+#define UICOLLECTIONVIEWCELL_REUSE_ID @"cid"
+#define UICOLLECTIONVIEWCELL_WIDTH (([UIScreen mainScreen].bounds.size.width-30)/2.0)
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MJRefresh/MJRefresh.h>
+#import <AFNetworking/AFNetworking.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "UIImageView+WebCache.h"
+
+#endif
