@@ -104,14 +104,14 @@
 }
 
 - (NSMutableArray *)attrsArray {
-    if (_attrsArray == nil) {
+    if (!_attrsArray) {
         _attrsArray = [NSMutableArray arrayWithCapacity:5];
     }
     return _attrsArray;
 }
 
 - (NSMutableDictionary *)maxYDict {
-    if (_maxYDict == nil) {
+    if (!_maxYDict) {
         _maxYDict = [NSMutableDictionary dictionaryWithCapacity:5];
     }
     return _maxYDict;

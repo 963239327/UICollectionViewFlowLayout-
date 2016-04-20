@@ -63,21 +63,21 @@
 
 #pragma mark - getter
 - (UIImageView *)iconImageView {
-    if (_iconImageView == nil) {
+    if (!_iconImageView) {
         _iconImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 40, WIDTH-40, WIDTH-40)];
     }
     return _iconImageView;
 }
 
 - (UILabel *)titleLabel {
-    if (_titleLabel == nil) {
+    if (!_titleLabel) {
         _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, WIDTH+40, WIDTH-40, 20)];
     }
     return _titleLabel;
 }
 
 - (UILabel *)introLabel {
-    if (_introLabel == nil) {
+    if (!_introLabel) {
         _introLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, WIDTH+40+20+10, WIDTH-40, 20)];
         _introLabel.font = [UIFont systemFontOfSize:15];
         _introLabel.textColor = [UIColor grayColor];
@@ -87,7 +87,7 @@
 }
 
 - (UILabel *)ptypeAndAgeLabel {
-    if (_ptypeAndAgeLabel == nil) {
+    if (!_ptypeAndAgeLabel) {
         _ptypeAndAgeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, WIDTH+40+20+10+20+10, WIDTH-40, 20)];
         _ptypeAndAgeLabel.font = [UIFont systemFontOfSize:13];
         _ptypeAndAgeLabel.textColor = [UIColor grayColor];

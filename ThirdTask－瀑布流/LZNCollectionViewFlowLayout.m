@@ -9,7 +9,7 @@
 #import "LZNCollectionViewFlowLayout.h"
 
 @interface LZNCollectionViewFlowLayout () {
-    CGFloat     _topHeight;
+    CGFloat _topHeight;
 }
 @end
 

@@ -89,11 +89,9 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"LZNViewController cellForItemAtIndexPath...");
     LZNCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:UICOLLECTIONVIEWCELL_REUSE_ID forIndexPath:indexPath];
-    
     LZNBaseModel *aBaseModel = [self.myDataSource objectAtIndex:indexPath.row];
     [cell assignmentUIWithModel:aBaseModel];
 //    [cell setItem:aBaseModel forIndexPath:indexPath];
-    
     return cell;
 }
 
@@ -123,7 +121,7 @@
 }
 
 - (UICollectionView *)myCollectionView {
-    if (_myCollectionView == nil) {
+    if (!_myCollectionView) {
         //LZNFlowLayout *flow = [[LZNFlowLayout alloc] init];
         LZNCollectionViewFlowLayout *flow = [[LZNCollectionViewFlowLayout alloc] init];
         flow.delegate = self;
@@ -138,7 +136,7 @@
 }
 
 - (NSArray *)myDataSource {
-    if (_myDataSource == nil) {
+    if (!_myDataSource) {
         _myDataSource = [[LZNModel alloc] init].mDataSource;
     }
     return _myDataSource;
