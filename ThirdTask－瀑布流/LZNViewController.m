@@ -29,7 +29,7 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"我爱董晓宇，么么哒");
     self.title = @"--->";
     [self.view addSubview:self.myCollectionView];
     
