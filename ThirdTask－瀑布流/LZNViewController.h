@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LZNFetchDataDelegate.h"
 
-@interface LZNViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate, LZNFetchDataDelegate, UICollectionViewDelegateFlowLayout>
+@interface LZNViewController : UIViewController
 
 @end

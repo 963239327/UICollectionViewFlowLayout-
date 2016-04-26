@@ -8,6 +8,7 @@
 //
 
 #import "LZNViewController.h"
+#import "LZNFetchDataDelegate.h"
 #import "LZNViewModel.h"
 #import "LZNModel.h"
 #import "LZNCollectionViewCell.h"
@@ -15,7 +16,7 @@
 #import "LZNFlowLayout.h"
 #import "LZNCollectionViewFlowLayout.h"
 
-@interface LZNViewController ()
+@interface LZNViewController () <UICollectionViewDataSource, UICollectionViewDelegate, LZNFetchDataDelegate, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) LZNViewModel *myViewModel;
 @property (nonatomic, strong) UICollectionView *myCollectionView;
@@ -111,7 +112,7 @@
 
 #pragma mark - getter
 - (LZNViewModel *)myViewModel {
-    if (_myViewModel == nil) {
+    if (!_myViewModel) {
         _myViewModel = [[LZNViewModel alloc] init];
         _myViewModel.delegate = self;
     }

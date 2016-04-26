@@ -10,7 +10,7 @@
 #import "LZNBaseModel.h"
 
 @interface LZNModel ()
-@property (nonatomic, strong, readwrite) NSMutableArray<LZNBaseModel *> *mDataSource;
+@property (nonatomic, strong) NSMutableArray<LZNBaseModel *> *mDataSource;
 @end
 
 @implementation LZNModel

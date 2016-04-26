@@ -9,11 +9,11 @@
 #import "LZNBaseModel.h"
 
 @interface LZNBaseModel ()
-@property (nonatomic, copy, readwrite) NSString *bmTitle;
-@property (nonatomic, copy, readwrite) NSString *bmIntro;
-@property (nonatomic, copy, readwrite) NSString *bmPtype;
-@property (nonatomic, copy, readwrite) NSString *bmAge;
-@property (nonatomic, copy, readwrite) NSString *bmIcon;
+@property (nonatomic, copy) NSString *bmTitle;
+@property (nonatomic, copy) NSString *bmIntro;
+@property (nonatomic, copy) NSString *bmPtype;
+@property (nonatomic, copy) NSString *bmAge;
+@property (nonatomic, copy) NSString *bmIcon;
 @end
 
 @implementation LZNBaseModel
