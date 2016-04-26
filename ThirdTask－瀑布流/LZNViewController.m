@@ -120,6 +120,7 @@
 
 - (UICollectionView *)myCollectionView {
     if (!_myCollectionView) {
+        // 这两种都可以
         //LZNFlowLayout *flow = [[LZNFlowLayout alloc] init];
         LZNCollectionViewFlowLayout *flow = [[LZNCollectionViewFlowLayout alloc] init];
         flow.delegate = self;
