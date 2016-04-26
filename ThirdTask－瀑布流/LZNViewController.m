@@ -14,7 +14,6 @@
 #import "LZNBaseModel.h"
 #import "LZNFlowLayout.h"
 #import "LZNCollectionViewFlowLayout.h"
-#import "PTHomeCollectionViewCell.h"
 
 @interface LZNViewController ()
 
@@ -91,7 +90,6 @@
     LZNCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:UICOLLECTIONVIEWCELL_REUSE_ID forIndexPath:indexPath];
     LZNBaseModel *aBaseModel = [self.myDataSource objectAtIndex:indexPath.row];
     [cell assignmentUIWithModel:aBaseModel];
-//    [cell setItem:aBaseModel forIndexPath:indexPath];
     return cell;
 }
 

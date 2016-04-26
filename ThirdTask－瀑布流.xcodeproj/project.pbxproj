@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F4C32E41CB4AA170080F2EA /* PTHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4C32E31CB4AA170080F2EA /* PTHomeCollectionViewCell.m */; };
 		2F5F294D1C9B9CDF00BA5974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F294C1C9B9CDF00BA5974 /* main.m */; };
 		2F5F29501C9B9CDF00BA5974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F294F1C9B9CDF00BA5974 /* AppDelegate.m */; };
 		2F5F29561C9B9CDF00BA5974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5F29541C9B9CDF00BA5974 /* Main.storyboard */; };
@@ -43,8 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F4C32E21CB4AA170080F2EA /* PTHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHomeCollectionViewCell.h; sourceTree = "<group>"; };
-		2F4C32E31CB4AA170080F2EA /* PTHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHomeCollectionViewCell.m; sourceTree = "<group>"; };
 		2F5F29481C9B9CDF00BA5974 /* ThirdTask－瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThirdTask－瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5F294C1C9B9CDF00BA5974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F5F294E1C9B9CDF00BA5974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,8 +190,6 @@
 		2F5F29831C9B9D9900BA5974 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2F4C32E21CB4AA170080F2EA /* PTHomeCollectionViewCell.h */,
-				2F4C32E31CB4AA170080F2EA /* PTHomeCollectionViewCell.m */,
 				2F5F29921C9BAF3300BA5974 /* LZNCollectionViewCell.h */,
 				2F5F29931C9BAF3300BA5974 /* LZNCollectionViewCell.m */,
 				2F5F2A1A1C9BFD0800BA5974 /* LZNFlowLayout.h */,
@@ -437,7 +432,6 @@
 				2F5F29901C9BA25F00BA5974 /* LZNBaseModel.m in Sources */,
 				2F5F298D1C9BA20E00BA5974 /* LZNModel.m in Sources */,
 				2F5F2A1D1C9BFD0800BA5974 /* LZNFlowLayout.m in Sources */,
-				2F4C32E41CB4AA170080F2EA /* PTHomeCollectionViewCell.m in Sources */,
 				2F5F29871C9B9DE800BA5974 /* LZNViewModel.m in Sources */,
 				2F5F2A201C9F9AD900BA5974 /* LZNCollectionViewFlowLayout.m in Sources */,
 				2F5F29501C9B9CDF00BA5974 /* AppDelegate.m in Sources */,
