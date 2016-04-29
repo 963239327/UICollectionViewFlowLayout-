@@ -12,10 +12,10 @@
 #define WIDTH UICOLLECTIONVIEWCELL_WIDTH
 
 @interface LZNCollectionViewCell ()
-@property (nonatomic, strong, readwrite) UIImageView *iconImageView;
-@property (nonatomic, strong, readwrite) UILabel *titleLabel;
-@property (nonatomic, strong, readwrite) UILabel *introLabel;
-@property (nonatomic, strong, readwrite) UILabel *ptypeAndAgeLabel;
+@property (nonatomic, strong) UIImageView *iconImageView;
+@property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *introLabel;
+@property (nonatomic, strong) UILabel *ptypeAndAgeLabel;
 @end
 
 @implementation LZNCollectionViewCell

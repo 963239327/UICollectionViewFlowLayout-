@@ -102,7 +102,6 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     LZNCollectionViewCell *cell = (LZNCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
     cell.backgroundColor = [UIColor yellowColor];
-    NSLog(@"selectCellIndex= %lu", indexPath.row);
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
