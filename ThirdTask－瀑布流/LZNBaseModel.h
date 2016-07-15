@@ -10,11 +10,11 @@
 
 @interface LZNBaseModel : NSObject
 
-@property (nonatomic, copy, readonly) NSString *bmTitle;
-@property (nonatomic, copy, readonly) NSString *bmIntro;
-@property (nonatomic, copy, readonly) NSString *bmPtype;
-@property (nonatomic, copy, readonly) NSString *bmAge;
-@property (nonatomic, copy, readonly) NSString *bmIcon;
+@property (nonatomic, readonly, copy) NSString *bmTitle;
+@property (nonatomic, readonly, copy) NSString *bmIntro;
+@property (nonatomic, readonly, copy) NSString *bmPtype;
+@property (nonatomic, readonly, copy) NSString *bmAge;
+@property (nonatomic, readonly, copy) NSString *bmIcon;
 
 + (instancetype)initWithDict:(NSDictionary *)dict;
 

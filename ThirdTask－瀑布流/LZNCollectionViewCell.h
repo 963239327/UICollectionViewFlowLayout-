@@ -11,10 +11,10 @@
 
 @interface LZNCollectionViewCell : UICollectionViewCell
 
-@property (nonatomic, strong, readonly) UIImageView *iconImageView;
-@property (nonatomic, strong, readonly) UILabel *titleLabel;
-@property (nonatomic, strong, readonly) UILabel *introLabel;
-@property (nonatomic, strong, readonly) UILabel *ptypeAndAgeLabel;
+@property (nonatomic, readonly, strong) UIImageView *iconImageView;
+@property (nonatomic, readonly, strong) UILabel *titleLabel;
+@property (nonatomic, readonly, strong) UILabel *introLabel;
+@property (nonatomic, readonly, strong) UILabel *ptypeAndAgeLabel;
 
 /**
  *  根据数据源中的数据对自定义cell里的控件进行赋值
